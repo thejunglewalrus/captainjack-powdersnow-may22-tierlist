@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Captain Jack &amp; Powdersnow — May 22, 2026 Joint Tier List (Translated)</title>
+<meta name="description" content="English translation of the joint KR Lost Ark tier list by Captain Jack (Thaemine 1st clear, Kazeros 2nd clear) and Powdersnow (Kazeros 3rd clear), posted to Inven on 2026-05-22.">
+<meta property="og:title" content="Captain Jack &amp; Powdersnow — May 22, 2026 Joint Tier List (English)">
+<meta property="og:description" content="English translation of the joint KR Lost Ark tier list by Captain Jack and Powdersnow. Class / build / core names verified against Loawa + the LPK game files.">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<style>
+  body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 30px;
+  }
+  header.hero {
+    max-width: 1300px;
+    margin: 0 auto 24px;
+    padding: 22px 26px;
+    background: #232323;
+    border-left: 4px solid #d4a017;
+    border-radius: 4px;
+  }
+  header.hero h1 { margin: 0 0 6px; font-size: 24px; color: #fff; }
+  header.hero .meta { color: #9aa; font-size: 13px; line-height: 1.6; }
+  header.hero .meta a { color: #6cf; text-decoration: none; }
+  header.hero .meta a:hover { text-decoration: underline; }
+  header.hero .socials {
+    margin-top: 12px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+  header.hero .socials a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #cfd6dd;
+    text-decoration: none;
+  }
+  header.hero .socials a:hover { color: #fff; }
+  header.hero .socials svg { width: 14px; height: 14px; fill: currentColor; }
+  header.hero .socials .sep { color: #555; }
+
+  main { max-width: 1300px; margin: 0 auto; }
+
+  .panel {
+    background: #1f1f1f;
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin: 0 0 22px;
+  }
+  .panel h2 {
+    color: #d4a017;
+    margin: 0 0 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .source-image-wrap {
+    background: #161616;
+    padding: 14px;
+    border-radius: 6px;
+  }
+  .source-image-wrap img {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 4px;
+  }
+  .source-image-wrap p {
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+    margin: 8px 0 0;
+  }
+
+  .tier-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tier-table tr { border-bottom: 1px solid #2a2a2a; }
+  .tier-table tr:last-child { border-bottom: 0; }
+  .tier-table td { padding: 12px 8px; vertical-align: top; }
+  .tier-table td.label {
+    width: 130px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: #111;
+  }
+  .tier-table td.divider {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    font-size: 13px;
+    padding: 8px 0;
+    background: #181818;
+  }
+  .tier-table td.entries {
+    color: #d8d8d8;
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+  .tier-table td.entries .build {
+    display: inline-block;
+    padding: 3px 8px;
+    margin: 3px 4px 3px 0;
+    border-radius: 3px;
+    background: #2a2a2a;
+    color: #e8e8e8;
+    white-space: nowrap;
+    font-size: 13px;
+  }
+  .tier-table td.entries .build .kr {
+    color: #888;
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  /* Tier color labels */
+  .label.ss   { background: #99c8ff; }
+  .label.s    { background: #ff8e8e; }
+  .label.a    { background: #ffce5c; }
+  .label.amid { background: #fff14c; }
+  .label.b    { background: #b9e667; }
+  .label.c    { background: #6ce0a8; }
+  .label.dk   { background: #b8c5e0; }
+
+  .decoder {
+    font-size: 12.5px;
+  }
+  .decoder table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .decoder th, .decoder td {
+    text-align: left;
+    padding: 5px 10px 5px 0;
+    vertical-align: top;
+  }
+  .decoder th {
+    color: #d4a017;
+    border-bottom: 1px solid #444;
+    padding-bottom: 7px;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .decoder td.k   { color: #ffe88a; font-family: monospace; white-space: nowrap; }
+  .decoder td.cls { color: #8fd1ff; }
+  .decoder td.eng { color: #ccc; }
+
+  .note {
+    background: #2a1f1a;
+    border-left: 3px solid #d4a017;
+    padding: 14px 18px;
+    border-radius: 4px;
+    color: #d4a017;
+    font-size: 13.5px;
+    margin: 0 0 22px;
+  }
+  .note h3 { color: #d4a017; margin: 0 0 8px; font-size: 14px; }
+  .note p { color: #d8c89a; margin: 6px 0; }
+  .note b { color: #fff5d8; }
+  .note ul { margin: 6px 0 0 18px; padding: 0; color: #d8c89a; }
+  .note li { margin: 4px 0; }
+
+  footer {
+    max-width: 1300px;
+    margin: 24px auto 0;
+    padding: 20px 0;
+    color: #777;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #2a2a2a;
+  }
+  footer a { color: #6cf; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Captain Jack &amp; Powdersnow — May 22, 2026 Joint Tier List</h1>
+  <div class="meta">
+    English translation of a joint KR Lost Ark tier list by
+    <b>Captain Jack</b> (Thaemine 1st clear · Kazeros 2nd clear) and
+    <b>Powdersnow</b> (Kazeros 3rd clear).
+    <br>
+    Posted to Inven 2026-05-22 22:09 by user 마러 (60,572 views) ·
+    <a href="https://www.inven.co.kr/board/lostark/6271/3682420" target="_blank">Inven source</a> ·
+    <a href="https://youtu.be/j6JIShzNsHU?t=562" target="_blank">Agam recap (t=9:22)</a>
+    <br>
+    KR class / build names verified against
+    <a href="https://loawa.com/rank" target="_blank">Loawa</a> and the LPK game files.
+  </div>
+  <div class="socials">
+    <a href="https://www.twitch.tv/thejunglewalrus" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg>
+      Twitch
+    </a>
+    <span class="sep">·</span>
+    <a href="https://discord.gg/area-chat" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+      Discord
+    </a>
+    <span class="sep">·</span>
+    <a href="https://www.youtube.com/@junglewalrus" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.378.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.12 2.136c1.873.505 9.378.505 9.378.505s7.505 0 9.378-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube
+    </a>
+    <span class="sep">·</span>
+    <a href="https://thejunglewalrus.github.io/" target="_blank" rel="noopener">More tools &amp; translations &rarr;</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="panel">
+    <h2>Source image</h2>
+    <div class="source-image-wrap">
+      <a href="images/source-tierlist.png" target="_blank" rel="noopener">
+        <img src="images/source-tierlist.png" alt="Captain Jack &amp; Powdersnow joint May 22 2026 tier list — original Korean source image from Inven">
+      </a>
+      <p>Click for full-resolution (1608&times;1638). The translated tier breakdown is below.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Tier breakdown (translated)</h2>
+    <table class="tier-table">
+      <tr>
+        <td class="label ss">SS</td>
+        <td class="entries">
+          <span class="build">Souleater Full Moon Harvester <span class="kr">소올 만월</span></span>
+          <span class="build">Arcanist Order of the Emperor <span class="kr">알카 황제</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="label s">S</td>
+        <td class="entries">
+          <span class="build">Breaker Brawl King Storm <span class="kr">브커 권왕</span></span>
+          <span class="build">Scrapper Ultimate Skill: Taijutsu <span class="kr">인파 체술</span></span>
+          <span class="build">Arcanist Grace of the Empress <span class="kr">알카 황후</span></span>
+          <span class="build">Shadowhunter Demonic Impulse <span class="kr">데모닉 충동</span></span>
+          <span class="build">Striker Deathblow <span class="kr">스커 일격</span></span>
+          <span class="build">Destroyer Gravity Training <span class="kr">디트 중수</span></span>
+          <span class="build">Berserker Berserker Technique <span class="kr">버서커 비기</span></span>
+          <span class="build">Deadeye Tactical Bullet <span class="kr">데헌 강무</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="divider">— thin wall (얇은 벽) —</td>
+      </tr>
+      <tr>
+        <td class="label a">A</td>
+        <td class="entries">
+          <span class="build">Deathblade Remaining Energy <span class="kr">블레 잔재</span></span>
+          <span class="build">Machinist Evolutionary Legacy <span class="kr">스카 유산</span></span>
+          <span class="build">Wardancer First Intention <span class="kr">배마 초심</span></span>
+          <span class="build">Breaker Asura's Path <span class="kr">브커 수라</span></span>
+          <span class="build">Artillerist Barrage Enhancement <span class="kr">블래 포갑</span></span>
+          <span class="build">Scrapper Shock Training <span class="kr">인파 충단</span></span>
+          <span class="build">Souleater Night's Edge <span class="kr">소울 그믐</span></span>
+          <span class="build">Wildsoul Ferality <span class="kr">환수사 야성</span></span>
+          <span class="build">Aeromancer Wind Fury <span class="kr">기상 질풍</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="divider">— wall (벽) · gate keepers —</td>
+      </tr>
+      <tr>
+        <td class="label a">gate</td>
+        <td class="entries">
+          <span class="build">Destroyer Rage Hammer <span class="kr">디트 분망</span></span>
+          <span class="build">Gunslinger Time to Hunt <span class="kr">건슬 사시</span></span>
+          <span class="build">Slayer Punisher <span class="kr">슬레 처단</span></span>
+          <span class="build">Slayer Predator <span class="kr">슬레 포식</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="label amid">A−</td>
+        <td class="entries">
+          <span class="build">Wardancer Esoteric Skill Enhancement <span class="kr">배마 오의</span></span>
+          <span class="build">Sharpshooter Death Strike <span class="kr">호크 죽습</span></span>
+          <span class="build">Reaper Hunger <span class="kr">리퍼 갈증</span></span>
+          <span class="build">Gunlancer Lone Knight <span class="kr">워로드 고기</span></span>
+          <span class="build">Berserker Mayhem <span class="kr">버서커 광기</span></span>
+          <span class="build">Deadeye Pistoleer <span class="kr">데헌 핸건</span></span>
+          <span class="build">Sorceress Igniter <span class="kr">소서 점화</span></span>
+          <span class="build">Sorceress Reflux <span class="kr">소서 환류</span></span>
+          <span class="build">Artillerist Firepower Enhancement <span class="kr">블래 화강</span></span>
+          <span class="build">Valkyrie Shining Knight <span class="kr">발키리 빛의기사</span></span>
+          <span class="build">Machinist Arthetinean Skill <span class="kr">스카 기술</span></span>
+          <span class="build">Striker Esoteric Flurry <span class="kr">스커 난무</span></span>
+          <span class="build">Sharpshooter Loyal Companion <span class="kr">호크 두둥</span></span>
+          <span class="build">Gunslinger Peacemaker <span class="kr">건슬 피메</span></span>
+          <span class="build">Deathblade Burst <span class="kr">블레 버스트</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="label b">B</td>
+        <td class="entries">
+          <span class="build">Glaivier Control <span class="kr">창술 절제</span></span>
+          <span class="build">Glaivier Pinnacle <span class="kr">창술 절정</span></span>
+          <span class="build">Reaper Lunar Voice <span class="kr">리퍼 달소</span></span>
+          <span class="build">Wildsoul Phantom Beast Awakening <span class="kr">환수사 환수각성</span></span>
+          <span class="build">Aeromancer Drizzle <span class="kr">기상 이슬비</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="divider">— wall (벽) —</td>
+      </tr>
+      <tr>
+        <td class="label c">C</td>
+        <td class="entries">
+          <span class="build">Gunlancer Combat Readiness <span class="kr">워로드 전태</span></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="label dk">don&rsquo;t know</td>
+        <td class="entries">
+          <span class="build">Soulfist Robust Spirit <span class="kr">기공사 세맥</span></span>
+          <span class="build">Soulfist Energy Overflow <span class="kr">기공사 역천</span></span>
+          <span class="build">Shadowhunter Perfect Suppression <span class="kr">데모닉 억제</span></span>
+          <span class="build">Summoner Communication Overflow <span class="kr">서머너 교감</span></span>
+          <span class="build">Summoner Master Summoner <span class="kr">서머너 상소</span></span>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>Translation notes</h2>
+
+    <div class="note">
+      <h3>Authorship and credentials</h3>
+      <p>This is a <b>joint</b> tier list. Captain Jack and Powdersnow merged their picks. The credit line carries each streamer's notable world-first / early-clear achievement so KR readers know whose perspective is weighting which classes:</p>
+      <ul>
+        <li><b>Captain Jack</b> — Thaemine The First &middot; Kazeros The Second</li>
+        <li><b>Powdersnow</b> — Kazeros The Third</li>
+      </ul>
+      <p>The Inven post itself is by user <b>마러</b> (Marer) who reposted the image; the rankings are not Marer's.</p>
+    </div>
+
+    <div class="note">
+      <h3>What's new vs the May 7 Powdersnow solo list</h3>
+      <ul>
+        <li>A <b>thin wall (얇은 벽)</b> now separates S from A — softer than the gate-keeper "big wall" but the authors flag it as meaningful.</li>
+        <li>A <b>"don't know" (몰라요)</b> tier at the bottom, for builds neither author had a confident opinion on: <b>both Soulfist builds</b>, <b>Shadowhunter Perfect Suppression</b>, and <b>both Summoner builds</b>. This is different from the May 7 list, which silently dropped classes it had no opinion on; the joint list is explicit.</li>
+        <li>The "joke deathblow" tier from May 7 is gone — <b>Striker Deathblow is now in S</b> on the strength of its raid-clear record, no jokes attached.</li>
+      </ul>
+    </div>
+
+    <div class="note">
+      <h3>Slang resolved this round</h3>
+      <ul>
+        <li><b>강무 = Deadeye Tactical Bullet.</b> Carry-over slang from the pre-Ark-Passive engraving "강화된 무기 / Enhanced Weapon" → 강+무. After Ark Passive launched, the build was renamed 전술 탄환 (Tactical Bullet), but the 강무 slang persists in active KR community use as of March 2026. Identical naming-survival pattern to 봉쯔 (Souleater Night's Edge, from the old 봉인의 날 engraving name).</li>
+        <li><b>The slide-vs-source discrepancy on Agam's recap.</b> Agam's slide added a phantom "Guardian Knight (spec)" in S and skipped the entire "don't know" tier. The Inven source image has neither: <b>no Guardian Knight</b> anywhere on the list (both 가나 업화 and 가나 드드 are simply not opined on, same status as Soulfist / Summoner), and the "don't know" tier is explicit.</li>
+        <li><b>Supports excluded entirely.</b> Bard, Paladin, Artist, and Valkyrie Liberator do not appear anywhere on the list — same convention as the May 7 disclaimer "Excluded: DPS-supports and pure supports".</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="panel decoder">
+    <h2>Slang decoder</h2>
+    <table>
+      <thead>
+        <tr><th>KR slang on chip</th><th>Class</th><th>Build (KR official &middot; EN)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="k">알카 황제</td><td class="cls">Arcanist</td><td class="eng">황제의 칙령 · Order of the Emperor</td></tr>
+        <tr><td class="k">알카 황후</td><td class="cls">Arcanist</td><td class="eng">황후의 은총 · Grace of the Empress</td></tr>
+        <tr><td class="k">소올 만월 / 소울 그믐</td><td class="cls">Souleater</td><td class="eng">만월의 집행자 / 그믐의 경계 · Full Moon Harvester / Night's Edge</td></tr>
+        <tr><td class="k">브커 권왕 / 브커 수라</td><td class="cls">Breaker</td><td class="eng">권왕파천무 / 수라의 길 · Brawl King Storm / Asura's Path</td></tr>
+        <tr><td class="k">인파 체술 / 인파 충단</td><td class="cls">Scrapper</td><td class="eng">극의: 체술 / 충격 단련 · Ultimate Skill: Taijutsu / Shock Training</td></tr>
+        <tr><td class="k">데모닉 충동 / 데모닉 억제</td><td class="cls">Shadowhunter</td><td class="eng">멈출 수 없는 충동 / 완벽한 억제 · Demonic Impulse / Perfect Suppression</td></tr>
+        <tr><td class="k">스커 일격 / 스커 난무</td><td class="cls">Striker</td><td class="eng">일격필살 / 오의난무 · Deathblow / Esoteric Flurry</td></tr>
+        <tr><td class="k">디트 중수 / 디트 분망</td><td class="cls">Destroyer</td><td class="eng">중력 수련 / 분노의 망치 · Gravity Training / Rage Hammer</td></tr>
+        <tr><td class="k">버서커 비기 / 버서커 광기</td><td class="cls">Berserker</td><td class="eng">광전사의 비기 / 광기 · Berserker Technique / Mayhem</td></tr>
+        <tr>
+          <td class="k">데헌 강무 / 데헌 핸건</td>
+          <td class="cls">Deadeye</td>
+          <td class="eng">전술 탄환 / 핸드거너 · Tactical Bullet / Pistoleer.
+            <br><span style="color:#aaa;">강무 is carry-over slang from the pre-Ark-Passive engraving 강화된 무기 (Enhanced Weapon) — same Tactical Bullet build as 전탄. Active in KR community as of March 2026.</span>
+          </td>
+        </tr>
+        <tr><td class="k">블레 잔재 / 블레 버스트</td><td class="cls">Deathblade</td><td class="eng">잔재된 기운 / 버스트 · Remaining Energy / Burst (= "Surge" in EN client)</td></tr>
+        <tr><td class="k">스카 유산 / 스카 기술</td><td class="cls">Machinist</td><td class="eng">진화의 유산 / 아르데타인의 기술 · Evolutionary Legacy / Arthetinean Skill</td></tr>
+        <tr><td class="k">배마 초심 / 배마 오의</td><td class="cls">Wardancer</td><td class="eng">초심 / 오의 강화 · First Intention / Esoteric Skill Enhancement</td></tr>
+        <tr><td class="k">블래 포갑 / 블래 화강</td><td class="cls">Artillerist</td><td class="eng">포격 강화 / 화력 강화 · Barrage Enhancement / Firepower Enhancement</td></tr>
+        <tr><td class="k">환수사 야성 / 환수사 환수각성</td><td class="cls">Wildsoul</td><td class="eng">야성 / 환수 각성 · Ferality / Phantom Beast Awakening</td></tr>
+        <tr><td class="k">기상 질풍 / 기상 이슬비</td><td class="cls">Aeromancer</td><td class="eng">질풍노도 / 이슬비 · Wind Fury / Drizzle</td></tr>
+        <tr><td class="k">호크 죽습 / 호크 두둥</td><td class="cls">Sharpshooter</td><td class="eng">죽음의 습격 / 두 번째 동료 · Death Strike / Loyal Companion</td></tr>
+        <tr><td class="k">리퍼 갈증 / 리퍼 달소</td><td class="cls">Reaper</td><td class="eng">갈증 / 달의 소리 · Hunger / Lunar Voice</td></tr>
+        <tr><td class="k">워로드 고기 / 워로드 전태</td><td class="cls">Gunlancer</td><td class="eng">고독한 기사 / 전투 태세 · Lone Knight / Combat Readiness</td></tr>
+        <tr><td class="k">건슬 사시 / 건슬 피메</td><td class="cls">Gunslinger</td><td class="eng">사냥의 시간 / 피스메이커 · Time to Hunt / Peacemaker</td></tr>
+        <tr><td class="k">슬레 처단 / 슬레 포식</td><td class="cls">Slayer</td><td class="eng">처단자 / 포식자 · Punisher / Predator</td></tr>
+        <tr><td class="k">소서 점화 / 소서 환류</td><td class="cls">Sorceress</td><td class="eng">점화 / 환류 · Igniter / Reflux</td></tr>
+        <tr><td class="k">발키리 빛의기사</td><td class="cls">Valkyrie</td><td class="eng">빛의 기사 · Shining Knight (DPS). Liberator (support) not on this list.</td></tr>
+        <tr><td class="k">창술 절제 / 창술 절정</td><td class="cls">Glaivier</td><td class="eng">절제 / 절정 · Control / Pinnacle</td></tr>
+        <tr><td class="k">기공사 세맥 / 기공사 역천</td><td class="cls">Soulfist</td><td class="eng">세맥타통 / 역천지체 · Robust Spirit / Energy Overflow</td></tr>
+        <tr><td class="k">서머너 교감 / 서머너 상소</td><td class="cls">Summoner</td><td class="eng">넘치는 교감 / 상급 소환사 · Communication Overflow / Master Summoner</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  Translated from
+  <a href="https://www.inven.co.kr/board/lostark/6271/3682420" target="_blank">Inven post #3682420</a>
+  (image-only; chip labels transcribed from the source PNG).
+  Slang verified via the LPK game files
+  (<code style="color:#999;">~lostark_extracted/lostark_data.db</code>)
+  and Loawa.
+  · <a href="https://github.com/thejunglewalrus/captainjack-powdersnow-may22-tierlist" target="_blank">Page source</a>
+  · Made by <a href="https://www.twitch.tv/thejunglewalrus" target="_blank">junglewalrus</a>
+</footer>
+
+</body>
+</html>
